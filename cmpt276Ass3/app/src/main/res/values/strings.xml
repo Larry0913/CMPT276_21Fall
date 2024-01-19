@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mine Seeker</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="setting">Setting</string>
+    <string name="skip">Skip</string>
+    <string name="author_info">By Lingjie Li and Hanxi Chen</string>
+    <string name="game_board_size_title">Board size</string>
+    <string name="game_board_mine_title">Mines</string>
+    <string name="settings">Settings</string>
+    <string name="custom_setting">Custom settings</string>
+    <string name="use_custom_setting">Use custom settings</string>
+    <string name="rows">Rows</string>
+    <string name="cols">Columns</string>
+    <string name="main_menu_title">Main Menu</string>
+    <string name="play_game_title">Play Game!</string>
+    <string name="options_title">Options</string>
+    <string name="help_title">Help</string>
+    <string name="help_content">How to play?
+        click one cell to scan. if it is not a mine ,it will show a number,it shows how many mines in this row and column, Your goal is to find all the mines using as few scans as possible.
+    </string>
+
+    <string name="setting_game_board">game_board</string>
+    <string name="setting_game_mines">game_mines</string>
+    <string name="setting_use_custom_setting">use_custom_setting</string>
+    <string name="setting_custom_game_row">custom_game_row</string>
+    <string name="setting_custom_game_col">custom_game_col</string>
+    <string name="setting_custom_game_mines">custom_game_mines</string>
+    <string name="game_found_mines_text">Found %d of %d</string>
+    <string name="game_scanned_count_text">Scan used : %d</string>
+    <string name="game_time_used_text">Times Played : %s</string>
+</resources>

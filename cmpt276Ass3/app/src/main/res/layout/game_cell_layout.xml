@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/cell_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></Button>
+
+    <ImageView
+        android:id="@+id/cell_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"></ImageView>
+</FrameLayout>

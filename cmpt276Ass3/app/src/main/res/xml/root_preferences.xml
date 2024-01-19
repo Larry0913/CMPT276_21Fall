@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings">
+
+        <DropDownPreference
+            app:defaultValue="4 x 6"
+            app:entries="@array/game_boards_entries"
+            app:entryValues="@array/game_boards_values"
+            app:key="game_board"
+            app:title="@string/game_board_size_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="6"
+            app:entries="@array/game_mines_values"
+            app:entryValues="@array/game_mines_values"
+            app:key="game_mines"
+            app:title="@string/game_board_mine_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/custom_setting">
+        <SwitchPreference
+            app:key="use_custom_setting"
+            app:title="@string/use_custom_setting" />
+
+        <EditTextPreference
+            android:defaultValue="4"
+            app:key="custom+game_row"
+            app:title="@string/rows" />
+        <EditTextPreference
+            android:defaultValue="4"
+            app:key="custom+game_col"
+            app:title="@string/cols" />
+        <EditTextPreference
+            app:defaultValue="6"
+            app:key="custom_game_mines"
+            app:title="@string/game_board_mine_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
