@@ -1,0 +1,10 @@
+ca/cmpt276/gamemodule/Model/Game.java
+ ca.cmpt276.gamemodule.Model.Game
+ca/cmpt276/gamemodule/UI/TextUI.java
+ ca.cmpt276.gamemodule.UI.TextUI
+ca/cmpt276/gamemodule/Model/PlayerScore.java
+ ca.cmpt276.gamemodule.Model.PlayerScore
+ca/cmpt276/gamemodule/Model/GameManager.java
+ ca.cmpt276.gamemodule.Model.GameManager
+ca/cmpt276/gamemodule/Main.java
+ ca.cmpt276.gamemodule.Main

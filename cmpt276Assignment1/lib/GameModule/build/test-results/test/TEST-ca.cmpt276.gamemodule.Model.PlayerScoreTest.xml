@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.cmpt276.gamemodule.Model.PlayerScoreTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-09-28T23:47:33" hostname="lijiejiedeMBP.hitronhub.home" time="0.039">
+  <properties/>
+  <testcase name="PlayerScoreNegativeNumberOfWagers_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.018"/>
+  <testcase name="PlayerScoreSetNegativeNumberOfWagers_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScoreNegativeNumberOfCards_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.002"/>
+  <testcase name="PlayerScoreSetNegativeSumOfPoints_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScoreZeroCardsWithPositiveNumberOfWagers_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScoreMoreThanSevenCards_SetExpectedScoreValue()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScoreZeroCards_SetExpectedScoreValue()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.0"/>
+  <testcase name="PlayerScoreValidArguments_SetExpectedScoreValue()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScorePositiveNumOfCardsWithNegativeSumOfPoints_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.002"/>
+  <testcase name="PlayerScoreSetNegativeNumOfCards_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.002"/>
+  <testcase name="PlayerScoreNegativeCardsWithPositiveSumOfPoints_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <testcase name="PlayerScoreZeroCardsWithPositiveSumOfPoints_ThrowException()" classname="ca.cmpt276.gamemodule.Model.PlayerScoreTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
